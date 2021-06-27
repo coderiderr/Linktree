@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/070428bd88.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Social Share | Coderider</title>
+</head>
+<body>
+    <div class="container">
+        <div class="head__section">
+            <img src="logo.png" alt="">
+            <p>I'm a full stack web developer</p>
+        </div>
+        <div class="social__links">
+            <ul id="item">
+                <li class="instagram"><a href="#">
+                    <i class="fa fa-instagram"></i>
+                    <span>
+                        <h3>@coderider</h3>
+                        <p>Follow me for more interesting web development projects.</p>
+                    </span>
+                </a></li>
+                <li class="youtube"><a href="#">
+                    <i class="fa fa-youtube"></i>
+                     <span>
+                        <h3>coderider</h3>
+                        <p>Like share and subscribe to our channel.</p>
+                    </span>
+                </a></li>
+                <li class="telegram"><a href="#">
+                    <i class="fa fa-telegram"></i>
+                     <span>
+                        <h3>coderider</h3>
+                        <p>Download free source code on telegram.</p>
+                    </span>
+                </a></li>
+                <li class="github"><a href="#">
+                    <i class="fa fa-github"></i>
+                     <span>
+                        <h3>coderider</h3>
+                        <p>Download free source code on github.</p>
+                    </span>
+                </a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="vanilla-tilt.min.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".social__links ul li"), {
+		max: 10,
+		speed: 800,
+        glare: true,
+        "max-glare": 1
+	});
+    </script>
+</body>
+</html>
